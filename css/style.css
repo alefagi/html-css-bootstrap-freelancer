@@ -1,0 +1,37 @@
+header nav {
+  background-color: red;
+  height: 50px;
+}
+
+header .jumbotron {
+  background-color: lightcoral;
+  height: 100px;
+}
+
+.portfolio {
+  background-color: green;
+  height: 100px;
+}
+
+.about {
+  background-color: blue;
+  height: 100px;
+}
+
+.contact-me {
+  background-color: lightgray;
+  height: 100px;
+}
+
+footer {
+  background-color: orange;
+  height: 100px;
+}
+
+.row {
+  border: 2px solid yellow;
+}
+
+.col {
+  border: 2px dotted black;
+}
