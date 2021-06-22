@@ -10,34 +10,55 @@
     <title>Bootstrap Freelancer</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <header>
+    <div class="container">
+
+      <!-- Header -->
+      <header class="text-white">
+
+        <!-- Navbar -->
         <nav>
           <div class="row">
-            <div class="col">start bootstrap</div>
-            <div class="col d-none d-md-block">nav</div>
+            <div class="col"><a href="#">start bootstrap</a></div>
+            <div class="col d-none d-md-block">
+              <ul class="row">
+                <li class="col"><a href="#">portfolio</a></li>
+                <li class="col"><a href="#">about</a></li>
+                <li class="col"><a href="#">contact</a></li>
+              </ul>
+            </div>
             <div class="col d-md-none"><i class="bi bi-list"></i></div>
           </div>
         </nav>
-  
-        <section class="jumbotron">jumbotron</section>
+        
+        <!-- Jumbotron -->
+        <section class="jumbotron">
+          <img src="" alt="">
+          <h1>start bootstrap</h1>  
+          <img src="" alt="">
+          <span>graphic artist - web designer - illustrator</span>
+        </section>
       </header>
   
+      <!-- Main -->
       <main>
-        <div class="portfolio">
+        <!-- Portfolio -->
+        <div class="portfolio text-black">
           <h2>portfolio</h2>
+          <img src="" alt="">
           <div class="row">
-            <div class="col-12 col-md-6 offset-lg-3 col-lg-2"></div>
-            <div class="col-12 col-md-6 col-lg-2"></div>
-            <div class="col-12 col-md-6 col-lg-2"></div>
-            <div class="col-12 col-md-6 offset-lg-3 col-lg-2"></div>
-            <div class="col-12 col-md-6 col-lg-2"></div>
-            <div class="col-12 col-md-6 col-lg-2"></div>
+            <div class="col-12 offset-md-1 col-md-5 offset-lg-3 col-lg-2"></div>
+            <div class="col-12 col-md-5 col-lg-2"></div>
+            <div class="col-12 offset-md-1 col-md-5 offset-lg-0 col-lg-2"></div>
+            <div class="col-12 col-md-5 offset-lg-3 col-lg-2"></div>
+            <div class="col-12 offset-md-1 col-md-5 offset-lg-0 col-lg-2"></div>
+            <div class="col-12 col-md-5 col-lg-2"></div>
           </div>
         </div>
     
-        <div class="about">
+        <!-- About -->
+        <div class="about text-white">
           <h2>about</h2>
+          <img src="" alt="">
           <div class="row">
             <div class="col-12 col-md-6"></div>
             <div class="col-12 col-md-6"></div>
@@ -45,8 +66,10 @@
           <div class="download-button">download</div>
         </div>
     
-        <div class="contact-me">
+        <!-- Contact Me -->
+        <div class="contact-me text-black">
           <h2>contact me</h2>
+          <img src="" alt="">
           <div>name</div>
           <div>email address</div>
           <div>phone number</div>
@@ -55,14 +78,17 @@
         </div>
       </main>
       
-      <footer>
+      <!-- Footer -->
+      <footer class="text-white">
+        <!-- Top -->
         <section class="top-footer">
           <div class="row">
-            <div class="col-12 col-md-4"></div>
-            <div class="col-12 col-md-4"></div>
-            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-4">location</div>
+            <div class="col-12 col-md-4">around the web</div>
+            <div class="col-12 col-md-4">about freelancer</div>
           </div>
         </section>
+        <!-- Bottom -->
         <section class="bottom-footer">
           <span>copyright</span>
         </section>

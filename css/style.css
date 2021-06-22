@@ -1,3 +1,13 @@
+/* Generic */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Section background and height */
+.container {
+  background-color: violet;
+}
 
 header nav {
   background-color: #2c3e50;
@@ -34,6 +44,7 @@ header .jumbotron {
   height: 50px;
 }
 
+/* Row and col */
 .row {
   border: 2px solid red;
 }
@@ -43,4 +54,11 @@ header .jumbotron {
   border: 2px dotted black;
   height: 30px;
 }
+
+
+/* Header */
+nav ul {
+  list-style-type: none;
+}
+
 
