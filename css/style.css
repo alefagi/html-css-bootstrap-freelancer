@@ -21,9 +21,17 @@
 
 
 
-/* Footer */
+/* Footer - icon */
 .icon-size {
   width: 36px;
   height: 36px;
   line-height: 36px;
+}
+
+/* Hr */
+hr.ms-hr {
+  height: 2px;
+  opacity: unset;
+  margin: 1%;
+  width: 15%;
 }
