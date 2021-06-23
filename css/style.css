@@ -10,32 +10,32 @@ header nav{
   height: 50px;
 }
 
-header .jumbotron {
+#jumbotron {
   background-color: #1abc9c;
   height: 300px;
 }
 
-.portfolio {
+#portfolio {
   background-color: #fff;
   height: 400px;
 }
 
-.about {
+#about {
   background-color: #1abc9c;
   height: 200px;
 }
 
-.contact-me {
+#contact-me {
   background-color: #fff;
   height: 400px;
 }
 
-.top-footer {
+#top-footer {
   background-color: #3a546d;
   height: 150px;
 }
 
-.bottom-footer {
+#bottom-footer {
   background-color: #2c3e50;
   height: 50px;
   text-align: center;

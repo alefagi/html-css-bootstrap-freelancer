@@ -16,22 +16,26 @@
       <header class="text-white">
 
         <!-- Navbar -->
-        <nav class="container-fluid">
-          <div class="row justify-content-between justify-content-md-around align-items-center">
-            <div class="col-auto"><a href="#">start bootstrap</a></div>
-            <div class="col-auto d-none d-md-block">
-              <ul class="row">
-                <li class="col"><a href="#">portfolio</a></li>
-                <li class="col"><a href="#">about</a></li>
-                <li class="col"><a href="#">contact</a></li>
-              </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">start bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">portfolio</a>
+                <a class="nav-link" href="#">about</a>
+                <a class="nav-link" href="#">contact</a>
+              </div>
             </div>
-            <div class="col-auto d-md-none"><a href="#"><i class="bi bi-list"></i></a></div>
           </div>
         </nav>
+
+        
         
         <!-- Jumbotron -->
-        <section class="jumbotron container-fluid">
+        <section id="jumbotron" class="container-fluid">
           <img src="" alt="">
           <h1>start bootstrap</h1>  
           <img src="" alt="">
@@ -42,32 +46,32 @@
       <!-- Main -->
       <main>
         <!-- Portfolio -->
-        <div class="portfolio container-fluid text-black">
+        <section id="portfolio" class="container text-black">
           <h2>portfolio</h2>
           <img src="" alt="">
           <div class="row">
-            <div class="col-12 offset-md-1 col-md-5 offset-lg-3 col-lg-2"></div>
-            <div class="col-12 col-md-5 col-lg-2"></div>
-            <div class="col-12 offset-md-1 col-md-5 offset-lg-0 col-lg-2"></div>
-            <div class="col-12 col-md-5 offset-lg-3 col-lg-2"></div>
-            <div class="col-12 offset-md-1 col-md-5 offset-lg-0 col-lg-2"></div>
-            <div class="col-12 col-md-5 col-lg-2"></div>
+            <div class="col-12 col-md-6 col-lg-4"></div>
+            <div class="col-12 col-md-6 col-lg-4"></div>
+            <div class="col-12 col-md-6 col-lg-4"></div>
+            <div class="col-12 col-md-6 col-lg-4"></div>
+            <div class="col-12 col-md-6 col-lg-4"></div>
+            <div class="col-12 col-md-6 col-lg-4"></div>
           </div>
-        </div>
+        </section>
     
         <!-- About -->
-        <div class="about container-fluid text-white">
+        <section id="about" class="container-fluid text-white">
           <h2>about</h2>
           <img src="" alt="">
           <div class="row">
-            <div class="col-12 col-md-6"></div>
-            <div class="col-12 col-md-6"></div>
+            <div class="col-12 col-md-6 offset-lg-2 col-lg-4"></div>
+            <div class="col-12 col-md-6 col-lg-4"></div>
           </div>
           <div class="download-button">download</div>
-        </div>
+        </section>
     
         <!-- Contact Me -->
-        <div class="contact-me container-fluid text-black">
+        <section id="contact-me" class="container-fluid text-black">
           <h2>contact me</h2>
           <img src="" alt="">
           <div>name</div>
@@ -75,13 +79,13 @@
           <div>phone number</div>
           <div>message</div>
           <div class="send-button">send</div>
-        </div>
+        </section>
       </main>
       
       <!-- Footer -->
       <footer class="text-white">
         <!-- Top -->
-        <section class="top-footer container-fluid">
+        <section id="top-footer" class="container-fluid">
           <div class="row">
             <div class="col-12 col-md-4">location</div>
             <div class="col-12 col-md-4">around the web</div>
@@ -89,7 +93,7 @@
           </div>
         </section>
         <!-- Bottom -->
-        <section class="bottom-footer container-fluid">
+        <section id="bottom-footer" class="container-fluid">
           <span>copyright</span>
         </section>
       </footer>    
