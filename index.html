@@ -90,11 +90,25 @@
             <i class="fas fa-star"></i>
             <hr class="d-inline-block align-middle w-25">
           </div>
-          <div>name</div>
-          <div>email address</div>
-          <div>phone number</div>
-          <div>message</div>
-          <div class="send-button">send</div>
+          <form class="w-50 m-auto text-start">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control border-0 border-bottom" id="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control border-0 border-bottom" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control border-0 border-bottom" id="phone">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control border-0 border-bottom" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
         </section>
       </main>
       
